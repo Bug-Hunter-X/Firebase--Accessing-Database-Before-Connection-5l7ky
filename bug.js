@@ -1,0 +1,1 @@
+The Firebase SDK may throw an error if you try to access a database reference before the connection to the database has been established. This can happen if you attempt to perform a read or write operation before the `onAuthStateChanged` listener has completed.
